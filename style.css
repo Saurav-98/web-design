@@ -16,9 +16,8 @@ FONT SIZE SYSTEM (px)
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
-  font-family: sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
-
 .container {
   width: 960px;
   margin: 0 auto;
@@ -89,11 +88,14 @@ img {
 
 .testimonial-box h2 {
   margin-bottom: 24px;
+  font-size: 24px;
 }
 
 .testimonial-text {
   font-style: italic;
   margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /* CHAIRS */
@@ -103,6 +105,7 @@ img {
 
 h3 {
   margin-bottom: 24px;
+  font-size: 20px;
 }
 
 .chair-details {
@@ -127,8 +130,39 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 footer {
   margin-bottom: 48px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Typeface generATOR */
+h1 {
+  /* 44 / 52 / 62 */
+  font-size: 52px;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  margin-bottom: 40px;
+}
+.header-text {
+  /* 16 / 18 / 20 / */
+  font-size: 18px;
+  line-height: 1.7;
+}
+h2 {
+  /* 30 / 36 / 44 */
+  font-size: 36px;
+  letter-spacing: -0.5px;
+}
+.features-title {
+  /* 16 / 18 / 20  */
+  font-size: 20px;
+  letter-spacing: -0.2px;
+}
+.features-text {
+  line-height: 1.7;
+  font-size: 18px;
 }
